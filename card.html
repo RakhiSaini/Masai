@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji"; */
+}
+.investor-cards{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.investor-card{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.investor-card div{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: #e5e7eb;;
+}
+.investor-card h2, .investor-card h3{
+    margin: 0px;
+    text-align: center;
+}
+.investor-card h2{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.investor-card h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 8px;
+    color: gray;
+}
+
+.investor-cards > .investor-card div > img:first-child{
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+}
+.investor-cards > .investor-card > img:last-child{
+    width: 40%;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+</style>
+<body>
+    <div class="investor-cards">
+        <div class="investor-card">
+            <div>
+                <img src="../Images/Card Images/vijay shekhar sharma.jpg" alt="vijay shekhar">
+            </div>
+            <h2>Vijay Shekhar Sharma</h2>
+            <h3>Founder & CEO</h3>
+            <img src="../Images/Card Images/paytm image.jpg" alt="PAYTM">
+        </div>
+        <div class="investor-card">
+            <div>
+                <img src="../Images/Card Images/kunal shah.jpg" alt="kunal shah">
+            </div>
+            <h2>Kunal Shah</h2>
+            <h3>Founder</h3>
+            <img src="../Images/Card Images/CRED image.jpg" alt="CRED">
+        </div>
+        <div class="investor-card">
+            <div>
+                <img src="../Images/Card Images/amrish rau.jpg" alt="Amrish Rau">
+            </div>
+            <h2>Amrish Rau</h2>
+            <h3>CEO</h3>
+            <img src="../Images/Card Images/Pine Labs image.jpg" alt="Pine Labs">
+        </div>
+        <div class="investor-card">
+            <div>
+                <img src="../Images/Card Images/sampad swain.jpg" alt="sampad swain">
+            </div>
+            <h2>Sampad Swain</h2>
+            <h3>Co-Founder & CEO</h3>
+            <img src="../Images/Card Images/instamojo image.jpg" alt="Instamojo">
+        </div>
+    </div>
+</body>
+</html>
